@@ -2,34 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Popular CSS Frameworks</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   </head>
 
   <body>
 
-    <header>
+    <header class="jumbotron">
       <h1>Popular CSS frameworks</h1>
     </header>
 
     <nav>
-      <ul>
-        <li><a href="#">Bootstrap</a></li>
-        <li><a href="#">Bulma</a></li>
-        <li><a href="#">Pure CSS</a></li>
-        <li><a href="#">Materialize</a></li>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a class="nav-link active" href="#bootstrap">Bootstrap</a></li>
+        <li class="nav-item"><a class="nav-link" href="#bulma">Bulma</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pure css">Pure CSS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#materialize">Materialize</a></li>
       </ul>
     </nav>
 
     <main>
       <section>
-        <h2>Bootstrap</h2>
+        <h2 id="bootstrap">Bootstrap</h2>
         <p>
           <a href="https://getbootstrap.com/">Bootstrap</a> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
         </p>
       </section>
 
       <section>
-        <h2>Bulma</h2>
+        <h2 id="bulma">Bulma</h2>
         <p>
           <a href="https://bulma.io/">Bulma</a> is a free and open source CSS framework based on Flexbox. It is:
         </p>
@@ -42,7 +44,7 @@
       </section>
 
       <section>
-        <h2>Pure CSS</h2>
+        <h2 id="pure css">Pure CSS</h2>
         <p>
           <a href="https://purecss.io/">Pure CSS</a> is a set of small, responsive CSS modules that you can use in every web project.
         </p>
@@ -52,7 +54,7 @@
       </section>
       
       <section>
-        <h2>Materialize</h2>
+        <h2 id="materialize">Materialize</h2>
         <p>
           <a href="http://materializecss.com/">Materialize</a> is a modern responsive front-end framework based on Material Design. Materialize simplifies life for developers and the users they serve. It is:
         </p>
@@ -68,5 +70,9 @@
       Web Interfaces Design - 2018
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
   </body>
+  
 </html>
